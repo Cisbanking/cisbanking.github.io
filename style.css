@@ -1,0 +1,108 @@
+#index_body {
+    background-image: url("./images/Red\ Facade.jpg");
+    font-weight: bold;
+    margin: 0
+}
+
+#main_body {
+    /* background-image: url("./images/Business\ boss\ give\ money\ salary\ to.jpg"); */
+    background-repeat: no-repeat;
+}
+
+#header_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+
+#header_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.4);
+    color: white;
+}
+
+#form_main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 60vh;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: auto;
+    border-radius: 2%;
+    height: 40vh;
+}
+
+#main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#main_image {
+    display: flex;
+    width: 500px;
+}
+
+#main_user_image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#main_table {
+    margin: auto
+}
+
+table, th, td {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    padding: 20px 80px
+}
+
+#right_main_header {
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    height: 5vh;
+    padding: 10px 50px;
+    border-radius: 5%;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: fit-content;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 60px;
+    padding: 0px 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+#footer-card {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
